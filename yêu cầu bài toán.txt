@@ -1,0 +1,29 @@
+Viết chương trình mô phỏng một menu thực hiện các chức năng sau
+	1. Kiểm tra một số nguyên dương nhập vào từ bàn phím có phải là số 
+		1.1. Số nguyên tố 
+		1.2. Số chính phương
+		1.3. Số hoàn hảo
+		1.4. Số đối xứng
+	2. Nhập một mảng một chiều các số nguyên xuất ra mảng đó và thực hiện các chức năng
+		2.1. Tìm ra tất cả các phần tử lớn nhất, nhỏ nhất trong mảng và chỉ ra vị trí
+		2.2. Tìm ra phần tử có giá trị gần với phần tử được nhập từ bàn phím nhất
+		2.3. Tìm ra tất cả các phần tử cực trị trong mảng và chỉ ra vị trí 
+		2.4. Sắp xếp mảng
+			2.4.1. Theo chiều tăng dần
+			2.4.2. Theo chiều giảm dần
+			2.4.3. Các phần tử chẳn thì tăng dần, các phần tử lẻ thì giảm dần
+			2.4.4. Các phần tử chẳn thì giảm dần, các phần tử lẻ thì tăng dần
+	3. Nhập một mảng hai chiều các số nguyên xuất ra mảng đó và thực hiện các chức năng
+		3.1. Tính tổng của một cột bất kì được nhập từ bàn phím
+		3.2. Tìm ra tất cả các phần tử lớn nhất, nhỏ nhất trong mảng và chỉ ra vị trí 
+		3.3. Tìm ra tất cả các phần tử yên ngựa và in ra vị trí (phần tử yên ngựa là phần tử nhỏ nhất trong hàng 
+		và lớn nhất trong cột chứa nó) 
+		3.4. Sắp xếp mảng 
+			3.4.1. Các phần tử tăng dần trên cột nhưng giảm dần trên hàng
+			3.4.2. Các phần tử tăng dần trên hàng nhưng giảm dần trên cột
+			3.4.3. Các phần tử tăng dần trên cột, trên hàng, trên đường chéo chính, đường chéo phụ
+			3.4.4. Các phần tử giảm dần trên cột, trên hàng, trên đường chéo chính, đường chéo phụ
+		3.5. Xoay ma trận vuông nxn sao cho nếu ma trận đó là một ma phương thì xoay 180 độ, nếu ma trận đó không là
+		ma phương thì xoay 90 độ cùng chiều kim đồng hồ
+		3.6. Tìm tất cả các phần tử cực trị trong mảng và in ra vị trí 
+	4. Thoát khỏi chương trình
