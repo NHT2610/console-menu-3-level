@@ -1336,17 +1336,23 @@ void fNhapMang2Chieu(int a[10][10], int& m, int& n)
 {
 	cout << "1. Nhap ma tran thuong" << endl;
 	cout << "2. Nhap ma tran vuong" << endl;
-	int select = fSelectCommand(2);
+	int select;
+	cout << "Lua chon: "; cin >> select;
+	while (cin.fail() || select < 1 || select > 2)
+	{
+		cin.clear(); cin.ignore();
+		cout << "Lua chon: "; cin >> select;
+	}
 	if (select == 1)
 	{
 		cout << "Nhap so hang "; cin >> m;
-		while (cin.fail() || m < 1 || m>10)
+		while (cin.fail() || m < 1 || m > 10)
 		{
 			cin.clear(); cin.ignore();
 			cout << "Nhap so hang "; cin >> m;
 		}
 		cout << "Nhap so cot "; cin >> n;
-		while (cin.fail() || n < 1 || n>10)
+		while (cin.fail() || n < 1 || n > 10)
 		{
 			cin.clear(); cin.ignore();
 			cout << "Nhap so cot "; cin >> n;
